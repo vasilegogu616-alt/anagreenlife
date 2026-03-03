@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana - Partener Forever Living</title>
+    <style>
+        :root { --forever-green: #2d5a27; --forever-gold: #ffcc00; }
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; margin: 0; background: #ffffff; color: #333; }
+        
+        /* Header cu info proprietar */
+        .top-info { background: #f8f8f8; padding: 10px; text-align: center; font-size: 11px; border-bottom: 1px solid #eee; text-transform: uppercase; letter-spacing: 0.5px; }
+        header { background: white; padding: 15px 20px; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .logo { font-weight: bold; font-size: 18px; color: var(--forever-green); display: flex; align-items: center; }
+        .nav-icons { display: flex; gap: 15px; font-size: 20px; }
+
+
+        /* Bara de cautare (aspect magazin) */
+        .search-box { padding: 10px 15px; background: white; }
+        .search-input { width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 4px; background: #f5f5f5; font-size: 14px; outline: none; }
+
+
+        /* Banner Principal */
+        .hero-banner { 
+            background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('https://images.unsplash.com/photo-1563172896-90159678c58b?auto=format&fit=crop&w=800&q=80') center/cover; 
+            height: 220px; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; text-align: center; 
+        }
+        .hero-banner h1 { font-size: 28px; margin: 0; text-shadow: 1px 1px 5px rgba(0,0,0,0.5); }
+
+
+        /* Sectiune Categorii */
+        .section-header { text-align: center; padding: 30px 10px 15px; font-size: 20px; font-weight: bold; text-transform: uppercase; }
+        .grid-container { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; padding: 12px; }
+        .category-card { background: white; border: 1px solid #efefef; text-align: center; padding-bottom: 15px; transition: 0.3s; text-decoration: none; color: inherit; }
+        .category-card img { width: 100%; height: 160px; object-fit: contain; background: #fff; margin-bottom: 10px; }
+        .category-card h3 { font-size: 13px; margin: 5px; height: 35px; color: #444; padding: 0 5px; }
+        .btn-view { background: var(--forever-gold); color: black; padding: 8px 0; margin: 0 10px; border-radius: 3px; font-weight: bold; font-size: 11px; text-decoration: none; display: block; }
+
+
+        /* Footer & Contact */
+        .contact-footer { background: #f9f9f9; padding: 40px 20px; text-align: center; margin-top: 30px; border-top: 1px solid #eee; }
+        .btn-call { display: inline-block; background: #333; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 10px; }
+        
+        /* Buton WhatsApp Plutitor */
+        .wa-button { position: fixed; bottom: 20px; right: 20px; background: #25D366; color: white; width: 55px; height: 55px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 10px rgba(0,0,0,0.3); z-index: 2000; text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+
+<div class="top-info">Forever Business Owner Independent: Ana</div>
+
+
+<header>
+    <div class="logo">🌿 PRODUSE ALOE</div>
+    <div class="nav-icons">
+        <span>👤</span>
+        <span>🛒</span>
+    </div>
+</header>
+
+
+<div class="search-box">
+    <input type="text" class="search-input" placeholder="ex: aloe vera gel, sampon, deodorant...">
+</div>
+
+
+<div class="hero-banner">
+    <h1>#ForeverProud</h1>
+</div>
+
+
+<h2 class="section-header">Categorii de produse</h2>
+
+
+<div class="grid-container">
+    <a href="https://thealoeveraco.shop" class="category-card">
+        <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=400&q=80" alt="Bauturi Aloe">
+        <h3>Băuturi cu Aloe Vera</h3>
+        <div class="btn-view">VEZI PRODUSE</div>
+    </a>
+    <a href="https://thealoeveraco.shop" class="category-card">
+        <img src="https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?auto=format&fit=crop&w=400&q=80" alt="Ingrijire">
+        <h3>Îngrijire Personală</h3>
+        <div class="btn-view">VEZI PRODUSE</div>
+    </a>
+    <a href="https://thealoeveraco.shop" class="category-card">
+        <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=400&q=80" alt="Control Greutate">
+        <h3>Controlul Greutății</h3>
+        <div class="btn-view">VEZI PRODUSE</div>
+    </a>
+    <a href="https://thealoeveraco.shop" class="category-card">
+        <img src="https://images.unsplash.com/photo-151242855908e-5603564f625c?auto=format&fit=crop&w=400&q=80" alt="Suplimente">
+        <h3>Suplimente Alimentare</h3>
+        <div class="btn-view">VEZI PRODUSE</div>
+    </a>
+</div>
+
+
+<div class="contact-footer">
+    <h3>Ai nevoie de ajutor?</h3>
+    <p>Ana îți stă la dispoziție pentru consultanță gratuită despre produse.</p>
+    <a href="tel:+40767852628" class="btn-call">SUNĂ: 0767 852 628</a>
+</div>
+
+
+<a href="https://wa.me/40767852628" class="wa-button" target="_blank">WA</a>
+
+
+</body>
+</html>
+
